@@ -1,8 +1,7 @@
 package patterns.decorator.realisation.one;
 
-public class EmailNotifier {
+public class EmailNotifier implements Notifier {
         public void send (String message) {
             System.out.println("Email " + message);
         }
-
 }

@@ -83,6 +83,7 @@ private class MyIterator implements Iterator<T> {
         }
     }
 }
+
 Reverse Iterator — обхід у зворотному порядку
 Клас ReverseIterator для MyList:
 

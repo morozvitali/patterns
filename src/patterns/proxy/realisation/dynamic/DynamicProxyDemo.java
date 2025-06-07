@@ -1,4 +1,4 @@
-package patterns.proxy.realisation.protection.dynamic;
+package patterns.proxy.realisation.dynamic;
 
 import java.lang.reflect.Proxy;
 

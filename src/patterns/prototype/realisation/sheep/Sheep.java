@@ -1,4 +1,4 @@
-package patterns.prototype.realisation.sword.sheep;
+package patterns.prototype.realisation.sheep;
 
 public class Sheep implements Cloneable {
     private String name;

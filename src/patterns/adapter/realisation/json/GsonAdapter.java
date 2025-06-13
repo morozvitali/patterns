@@ -12,6 +12,4 @@ public class GsonAdapter implements JsonParser {
     public Map<String,Object> parse (String json) {
         return gson.fromJson (json, new TypeToken <Map<String,Object>>(){}.getType());
     }
-
-
 }

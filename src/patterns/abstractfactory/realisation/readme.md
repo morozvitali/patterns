@@ -15,14 +15,12 @@ Abstract Factory — це породжуючий патерн, який нада
 щоб ми могли змінити тему — і при цьому створювалися відповідні об'єкти.
 
 🧱 Структура
-markdown
-Copy
-Edit
-AbstractFactory
-/              \
-LightUIFactory      DarkUIFactory
-/     \               /     \
-LightButton LightCheckbox  DarkButton DarkCheckbox
+
+                    AbstractFactory
+                    /              \
+             LightUIFactory      DarkUIFactory
+              /     \                 /     \
+     LightButton LightCheckbox  DarkButton DarkCheckbox
 ✅ Використання
 Коли система повинна бути незалежна від способу створення, 
 композиції і представлення об'єктів.

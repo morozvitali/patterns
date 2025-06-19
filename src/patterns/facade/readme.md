@@ -26,11 +26,11 @@ public void freeze() {
 System.out.println("Freezing processor...");
 }
 
-    public void jump(long position) {
+public void jump(long position) {
         System.out.println("Jumping to position " + position);
     }
 
-    public void execute() {
+public void execute() {
         System.out.println("Executing instructions...");
     }
 }
@@ -54,13 +54,13 @@ private CPU cpu;
 private Memory memory;
 private HardDrive hardDrive;
 
-    public ComputerFacade() {
+public ComputerFacade() {
         this.cpu = new CPU();
         this.memory = new Memory();
         this.hardDrive = new HardDrive();
     }
 
-    public void start() {
+public void start() {
         cpu.freeze();
         String bootData = hardDrive.read(0, 1024);
         memory.load(0, bootData);
@@ -78,6 +78,7 @@ computer.start(); // Одним викликом запускаємо
 всю складну систему
 }
 }
+
 🧠 Де застосовується?
 Коли система має багато компонентів із складною взаємодією
 

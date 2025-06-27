@@ -127,35 +127,35 @@ Brewing	→ виводить "Кава готується…"
 Ready	→ кава видана, переходить у IdleState
 
 🧩 Шаблон коду
-
-interface State {
-void pressButton(CoffeeMachine machine);
-}
-
-class IdleState implements State {
-public void pressButton(CoffeeMachine machine) {
-System.out.println("Запускаємо приготування кави...");
-machine.setState(new BrewingState());
-}
-}
-
-class BrewingState implements State {
-public void pressButton(CoffeeMachine machine) {
-System.out.println("Кава готується… зачекайте.");
-// Імітація закінчення приготування
-machine.setState(new ReadyState());
-}
-}
-
-class ReadyState implements State {
-public void pressButton(CoffeeMachine machine) {
-System.out.println("Каву видано. Смачного!");
-machine.setState(new IdleState());
-}
-}
-
-class CoffeeMachine {
-private State state;
+    
+    interface State {
+    void pressButton(CoffeeMachine machine);
+    }
+    
+    class IdleState implements State {
+    public void pressButton(CoffeeMachine machine) {
+    System.out.println("Запускаємо приготування кави...");
+    machine.setState(new BrewingState());
+    }
+    }
+    
+    class BrewingState implements State {
+    public void pressButton(CoffeeMachine machine) {
+    System.out.println("Кава готується… зачекайте.");
+    // Імітація закінчення приготування
+    machine.setState(new ReadyState());
+    }
+    }
+    
+    class ReadyState implements State {
+    public void pressButton(CoffeeMachine machine) {
+    System.out.println("Каву видано. Смачного!");
+    machine.setState(new IdleState());
+    }
+    }
+    
+    class CoffeeMachine {
+    private State state;
 
     public CoffeeMachine() {
         state = new IdleState();

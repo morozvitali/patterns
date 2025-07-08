@@ -1,4 +1,4 @@
-package patterns.bridge;
+package patterns.bridge.realisation;
 
 public interface Device {
     void enable();

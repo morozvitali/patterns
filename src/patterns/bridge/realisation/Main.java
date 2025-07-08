@@ -1,4 +1,4 @@
-package patterns.bridge;
+package patterns.bridge.realisation;
 
 public class Main {
     public static void main(String[] args) {

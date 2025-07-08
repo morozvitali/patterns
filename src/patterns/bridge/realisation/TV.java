@@ -1,4 +1,4 @@
-package patterns.bridge;
+package patterns.bridge.realisation;
 
 public class TV implements Device {
     private boolean on = false;

@@ -1,4 +1,4 @@
-package patterns.adapter.realisation.json;
+package patterns.adapter1.realisation.json;
 import java.util.Map;
 
 public class JsonService {

@@ -1,4 +1,4 @@
-package patterns.adapter.realisation.json;
+package patterns.adapter1.realisation.json;
 
 public class Main {
     public static void main(String[] args) {

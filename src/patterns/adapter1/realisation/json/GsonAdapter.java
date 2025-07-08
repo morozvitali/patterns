@@ -1,4 +1,4 @@
-package patterns.adapter.realisation.json;
+package patterns.adapter1.realisation.json;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;

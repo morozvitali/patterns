@@ -1,4 +1,4 @@
-package patterns.bridge;
+package patterns.bridge.realisation;
 
 public abstract class Remote {
     protected Device device;

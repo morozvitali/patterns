@@ -1,4 +1,4 @@
-package patterns.bridge;
+package patterns.bridge.realisation;
 
 public class AdvancedRemote extends Remote {
     public AdvancedRemote (Device device) {

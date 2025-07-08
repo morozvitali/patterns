@@ -32,11 +32,13 @@ public void printOld(String text) {
 System.out.println("Старий принтер: " + text);
 }
 }
+
 А нова система очікує інтерфейс:
 
 interface NewPrinter {
 void print(String text);
 }
+
 🔄 Створюємо адаптер:
 
 class PrinterAdapter implements NewPrinter {

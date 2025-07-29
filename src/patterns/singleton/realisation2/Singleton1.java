@@ -1,12 +1,13 @@
-package patterns.singleton.realisation;
+package patterns.singleton.realisation2;
 
-public class Singleton1 {
 /*
  ледача реплізація, непотокобезпечна
  */
+
+public class Singleton1 {
     private static Singleton1 instance;
-    private Singleton1() {
-    }
+    private Singleton1 () {}
+
     public static Singleton1 getInstance() {
         if (instance == null) {
             instance = new Singleton1();

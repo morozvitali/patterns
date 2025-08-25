@@ -97,7 +97,8 @@ System.out.println("🎹 Синтезатор звучить у: " + songName);
         SongPerformance show = new LiveShow(guitar);
         show.perform("Highway to Code");
 
-        // Змінюємо інструмент — та сама пісня звучить по-іншому
+        // Змінюємо інструмент — та сама 
+        пісня звучить по-іншому
         show.setInstrument(drums);
         show.perform("Highway to Code");
 

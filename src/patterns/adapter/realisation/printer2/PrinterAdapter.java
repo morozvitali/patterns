@@ -1,4 +1,4 @@
-package patterns.adapter1.realisation.printer2;
+package patterns.adapter.realisation.printer2;
 
 public class PrinterAdapter implements NewPrinter {
     private final OldPrinter oldPrinter;

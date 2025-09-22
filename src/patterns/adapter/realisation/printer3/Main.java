@@ -1,4 +1,4 @@
-package patterns.adapter1.realisation.printer3;
+package patterns.adapter.realisation.printer3;
 
 public class Main {
     public static void main(String[] args) {
